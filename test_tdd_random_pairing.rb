@@ -28,6 +28,6 @@ def test_Sally_4
 end
 
 def test_if_array_is_class
-	assert_equal(Array, arr())
+	assert_equal(Array, arr().class)
 end
 end
