@@ -37,9 +37,10 @@ def test_if_shuffled_array_has_correct_length
 	assert_equal(2, shuffled_names(people).count)
 end
 
-# def test_if_first_array_has_correct_length
-# 	people = ["Tom", "Dick", "Harry", "Jenny", "Sally"]
-# 	assert_equal(5, shuffled_names(people).count)
+def test_if_first_array_has_correct_length
+	people = ["Tom", "Dick", "Harry", "Jenny", "Sally"]
+	assert_equal(5, shuffled_names(people).count)
+end
 
 def test_counting_arrays
 	people = ["Tom", "Dick", "Harry", "Jenny", "Sally"]
