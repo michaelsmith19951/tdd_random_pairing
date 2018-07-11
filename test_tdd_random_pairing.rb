@@ -32,10 +32,10 @@ def test_if_array_is_class
 	assert_equal(Array, shuffled_names(people).class)
 end
 
-# def test_if_shuffled_array_has_correct_length
-# 	people = ["Tom", "Dick", "Harry", "Jenny", "Sally"]
-# 	assert_equal(5, shuffled_names(people).count)
-# end
+def test_if_shuffled_array_has_correct_length
+	people = ["Tom", "Dick", "Harry", "Jenny", "Sally"]
+	assert_equal(4, shuffled_names(people).count)
+end
 
 # def test_if_first_array_has_correct_length
 # 	people = ["Tom", "Dick", "Harry", "Jenny", "Sally"]
