@@ -22,4 +22,8 @@ end
 def test_Jenny_3
 	assert_equal("Jenny", arr()[3])
 end
+
+def test_Sally_4
+	assert_equal("Sally", arr()[0])
+end
 end
