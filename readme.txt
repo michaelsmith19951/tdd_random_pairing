@@ -1,0 +1,1 @@
+This program takes the names of 5 people, which are included in an array, and randomly places them into 2 separate arrays. The "shuffle" method is used to move the people's names into random positions in the 2 separate arrays.
