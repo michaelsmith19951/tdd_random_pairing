@@ -34,7 +34,7 @@ end
 
 def test_if_shuffled_array_has_correct_length
 	people = ["Tom", "Dick", "Harry", "Jenny", "Sally"]
-	assert_equal(4, shuffled_names(people).count)
+	assert_equal(3, shuffled_names(people).count)
 end
 
 # def test_if_first_array_has_correct_length
