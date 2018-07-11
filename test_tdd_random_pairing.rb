@@ -12,7 +12,7 @@ def test_Tom_0
 end	
 
 def test_Dick_0
-	assert_equal("Dick", arr()[4])
+	assert_equal("Dick", arr()[1])
 end	
 
 end
