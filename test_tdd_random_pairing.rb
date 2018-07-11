@@ -8,7 +8,7 @@ require_relative "tdd_random_pairing.rb"
 class TestTddRandomPairing < Minitest::Test
 
 def test_Tom_0
-	assert_equal("Tom", arr()[2])
+	assert_equal("Tom", arr()[0])
 end	
 
 
