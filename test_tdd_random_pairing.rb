@@ -19,4 +19,7 @@ def test_Harry_0
 	assert_equal("Harry", arr()[2])
 end
 
+def test_Jenny_0
+	assert_equal("Jenny", arr()[2])
+end
 end
