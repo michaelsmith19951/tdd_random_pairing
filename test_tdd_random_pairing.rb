@@ -11,5 +11,8 @@ def test_Tom_0
 	assert_equal("Tom", arr()[0])
 end	
 
+def test_Dick_0
+	assert_equal("Dick", arr()[4])
+end	
 
 end
