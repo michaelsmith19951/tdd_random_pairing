@@ -44,6 +44,6 @@ end
 def test_counting_arrays
 	people = ["Tom", "Dick", "Harry", "Jenny", "Sally"]
 	results = shuffled_names(people)
-	assert_equal(3, results.count)
+	assert_equal(2, results.count)
 end
 end
